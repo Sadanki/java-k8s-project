@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YOUR_USERNAME/java-k8s-helm-chart
+    repoURL: https://github.com/Sadanki/java-k8s-project.git
     targetRevision: main
-    path: java-k8s-chart
+    path: helm/java-k8s-chart
     helm:
       releaseName: java-app
   destination:
@@ -19,4 +19,4 @@ spec:
       prune: true
       selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true
