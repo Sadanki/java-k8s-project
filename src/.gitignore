@@ -1,0 +1,9 @@
+# Ignore compiled files and other junk
+*.class
+*.log
+*.tmp
+*.swp
+target/
+bin/
+out/
+.DS_Store
