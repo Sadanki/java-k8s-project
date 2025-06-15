@@ -1,10 +1,10 @@
-````markdown
 # 🧰 Java HTTP Server on Kubernetes 🚀
 
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)
 ![Java](https://img.shields.io/badge/Java-17-blue.svg?logo=java)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployed-blue?logo=kubernetes)
 ![License](https://img.shields.io/badge/License-MIT-green)
+
 
 This project demonstrates how to:
 
