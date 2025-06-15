@@ -6,11 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Sadanki/java-k8s-project.git
-    targetRevision: main
-    path: helm/java-k8s-chart
+    repoURL: https://github.com/Sadanki/java-k8s-project
+    targetRevision: HEAD
+    path: java-k8s-chart
     helm:
-      releaseName: java-app
+      valueFiles:
+        - values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: java-k8s-ns
