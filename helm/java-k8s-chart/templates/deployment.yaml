@@ -2,7 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "java-k8s-chart.fullname" . }}
-  namespace: {{ .Values.namespace }}
+  # Remove this line 👇
+  # namespace: {{ .Values.namespace }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
